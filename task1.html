@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 1 - SkillForge Product Backlog</title>
+    <style>
+        /* General Body Settings to mimic a document viewer */
+        body {
+            background-color: #f2f2f2;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* A4 Page Simulation */
+        .page {
+            background-color: white;
+            width: 210mm; /* A4 Width */
+            min-height: 297mm; /* A4 Height */
+            padding: 25mm; /* Standard Margins */
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        /* Typography */
+        p, li, td, th {
+            font-size: 12pt;
+            line-height: 1.5;
+            color: #000;
+            margin-bottom: 10pt;
+        }
+
+        h1 {
+            font-size: 18pt; /* Main Title Size */
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30pt;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 20pt;
+            margin-bottom: 10pt;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 13pt;
+            font-weight: bold;
+            margin-top: 15pt;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10pt;
+            margin-bottom: 10pt;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        /* Title Page Specifics */
+        .title-table {
+            border: none;
+            margin-top: 50pt;
+        }
+        .title-table td {
+            border: none;
+            padding: 10px 0;
+            font-size: 14pt;
+        }
+        .label-col {
+            font-weight: bold;
+            width: 35%;
+        }
+
+        /* Print Settings to ensure perfect PDF output */
+        @media print {
+            body {
+                background: none;
+                margin: 0;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                margin: 0;
+                width: 100%;
+                page-break-after: always;
+            }
+            .page:last-child {
+                page-break-after: auto;
+            }
+            /* Hide the download instructions when printing */
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="no-print" style="margin-bottom: 20px; text-align: center; font-family: sans-serif;">
+        <p><strong>To Save as PDF:</strong> Press <code>Ctrl + P</code> (Windows) or <code>Cmd + P</code> (Mac) and select "Save as PDF".</p>
+    </div>
+
+    <div class="page">
+        <br><br><br>
+        <h1>Product Backlog & Feature Documentation<br>Milestone 1</h1>
+        <br>
+        
+        <table class="title-table">
+            <tr>
+                <td class="label-col">Project Name:</td>
+                <td>SkillForge – AI-Driven Adaptive Learning and Exam Generator</td>
+            </tr>
+            <tr>
+                <td class="label-col">Submitted by:</td>
+                <td>[Enter Team Members’ Names & PRNs]</td>
+            </tr>
+            <tr>
+                <td class="label-col">Course:</td>
+                <td>SY B.Tech – Computer Engineering</td>
+            </tr>
+            <tr>
+                <td class="label-col">Institute:</td>
+                <td>R C Patel Institute of Technology, Shirpur</td>
+            </tr>
+            <tr>
+                <td class="label-col">Submitted to:</td>
+                <td>[Enter Faculty Name]</td>
+            </tr>
+            <tr>
+                <td class="label-col">Date of Submission:</td>
+                <td>28 November 2025</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page">
+        <h2>1. Introduction</h2>
+        <p>SkillForge is an AI-driven educational platform designed to enhance the learning experience through personalization and automation. The system provides tailored learning content and auto-generates exams based on learner performance, bridging the gap between static learning materials and dynamic student needs.</p>
+        
+        <p>The purpose of this document is to define the Product Backlog and detailed features planned for development in Milestone 1. Adopting an Agile methodology, this document outlines the user stories, priorities, and specific modules required to build the core functionality of the system.</p>
+        
+        <p>This backlog will serve as the primary reference for planning sprints, tracking development progress, and evaluating the successful completion of Milestone 1 tasks. It ensures that the development team maintains a clear focus on delivering high-value features efficiently.</p>
+
+        <h2>2. Product Backlog</h2>
+        <p>The following table outlines the comprehensive list of features, user stories, and their prioritization for the SkillForge project.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%;">ID</th>
+                    <th style="width: 20%;">Feature / Module</th>
+                    <th style="width: 35%;">User Story</th>
+                    <th style="width: 25%;">Description</th>
+                    <th style="width: 8%;">Pri</th>
+                    <th style="width: 7%;">Sprint</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PB-01</td>
+                    <td>User Registration & Authentication</td>
+                    <td>As a user, I want to register and log in so that I can access the system securely.</td>
+                    <td>Students and instructors can register, log in, and manage profiles.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-02</td>
+                    <td>Role-Based Access Control</td>
+                    <td>As an admin, I want to assign roles so that users access only relevant features.</td>
+                    <td>Distinct dashboards for Student, Instructor, and Admin.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-03</td>
+                    <td>Course & Topic Management</td>
+                    <td>As an instructor, I want to create courses so that students can enroll.</td>
+                    <td>Instructors can create courses, add modules, and topics.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-04</td>
+                    <td>Question Bank Management</td>
+                    <td>As an instructor, I want to add questions so that exams can be generated.</td>
+                    <td>Bank with tags: topic, difficulty, type (MCQ), marks.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-05</td>
+                    <td>AI-Based Exam Generator</td>
+                    <td>As a user, I want to generate exams based on criteria to test knowledge.</td>
+                    <td>Auto-generate exams based on topic, difficulty, marks.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-06</td>
+                    <td>Instant Evaluation</td>
+                    <td>As a student, I want immediate scores so that I know my performance.</td>
+                    <td>Auto-check MCQs; show scores and feedback.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-07</td>
+                    <td>Basic Security</td>
+                    <td>As a user, I want secure sessions so that my data is safe.</td>
+                    <td>Secure login and session timeout.</td>
+                    <td>High</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PB-08</td>
+                    <td>Performance Analytics (Student)</td>
+                    <td>As a student, I want performance charts to identify weak areas.</td>
+                    <td>Charts for past scores and recommended practice.</td>
+                    <td>Med</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="page">
+        <p><em>(Product Backlog Continued)</em></p>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%;">ID</th>
+                    <th style="width: 20%;">Feature / Module</th>
+                    <th style="width: 35%;">User Story</th>
+                    <th style="width: 25%;">Description</th>
+                    <th style="width: 8%;">Pri</th>
+                    <th style="width: 7%;">Sprint</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PB-09</td>
+                    <td>Performance Analytics (Instructor)</td>
+                    <td>As an instructor, I want class stats to monitor progress.</td>
+                    <td>Show class performance and question stats.</td>
+                    <td>Med</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>PB-10</td>
+                    <td>Content Upload</td>
+                    <td>As an instructor, I want to upload files for study material.</td>
+                    <td>Upload PDFs/videos mapped to topics.</td>
+                    <td>Med</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>PB-11</td>
+                    <td>AI Learner Profiling</td>
+                    <td>As a system, I want to track user data to build a profile.</td>
+                    <td>Track performance for adaptive recommendations.</td>
+                    <td>Med</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>PB-12</td>
+                    <td>Adaptive Path</td>
+                    <td>As a student, I want suggestions so that I can improve efficiently.</td>
+                    <td>Suggest next topics based on learner profile.</td>
+                    <td>Med</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>PB-13</td>
+                    <td>Admin Panel</td>
+                    <td>As an admin, I want to manage users so the system stays organized.</td>
+                    <td>Manage users, courses, and configuration.</td>
+                    <td>Low</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>PB-14</td>
+                    <td>Notifications</td>
+                    <td>As a user, I want alerts so that I don't miss deadlines.</td>
+                    <td>Notify about new exams and low performance.</td>
+                    <td>Low</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>3. Sprint-1 Scope (Milestone 1)</h2>
+        <p>Sprint 1 focuses on delivering the <strong>Minimum Viable Product (MVP)</strong> for SkillForge. The objective is to establish the core architecture and enable the fundamental flow of the application: a user registering, an instructor creating a course/quiz, and a student attempting that quiz with immediate results.</p>
+        
+        <p><strong>Sprint 1 will include the following features:</strong></p>
+        <ul>
+            <li>User Registration & Authentication (Secure login for all roles)</li>
+            <li>Role-Based Access Control (Student vs. Instructor views)</li>
+            <li>Course & Topic Management (Basic structure creation)</li>
+            <li>Question Bank Management (Adding questions to database)</li>
+            <li>Basic AI-Based Exam / Quiz Generator (Logic for question selection)</li>
+            <li>Instant Evaluation & Feedback (Automated grading for MCQs)</li>
+            <li>Basic Performance Analytics (Score history)</li>
+        </ul>
+
+        <div style="border: 2px solid #333; padding: 15px; margin-top: 20px; background-color: #f9f9f9;">
+            <strong>Sprint Goal:</strong> Deliver a working end-to-end flow where a student can register, log in, enroll in a course, attempt an auto-generated quiz from the question bank, and view their score and basic feedback.
+        </div>
+
+        <h2>4. Conclusion</h2>
+        <p>The Product Backlog defined in this document provides a clear, structured roadmap for the development of SkillForge. By prioritizing core functionalities such as the Exam Generator and Role-Based Access Control in Sprint 1, the team ensures that a functional prototype is ready for Milestone 1 evaluation.</p>
+        
+        <p>Moving forward, this backlog will serve as a living document. It will be refined in future sprints as the team gathers feedback from the initial deployment and integrates more complex AI-driven adaptive capabilities.</p>
+    </div>
+
+</body>
+</html>

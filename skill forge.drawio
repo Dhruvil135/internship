@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2">
+  <diagram name="Page-1" id="AV9uvVqZOl3ZAM3rRQmU">
+    <mxGraphModel dx="1489" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="180" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-1" target="aX7u31TYIJ3JTOOmk9Ji-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-1" value="Students&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-10" value="Enroll in Course" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-12" value=" Learning Path" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-13" value="Take Exam" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-16" value="View Progress Reports" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-1" target="aX7u31TYIJ3JTOOmk9Ji-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="305" as="sourcePoint" />
+            <mxPoint x="240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-1" target="aX7u31TYIJ3JTOOmk9Ji-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="355" as="sourcePoint" />
+            <mxPoint x="230" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-1" target="aX7u31TYIJ3JTOOmk9Ji-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="425" as="sourcePoint" />
+            <mxPoint x="250" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-26" target="aX7u31TYIJ3JTOOmk9Ji-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-26" value="&lt;div&gt;Instructor&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-27" value="&lt;span style=&quot;text-align: left;&quot;&gt;Create Course Content&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-28" value="&lt;span style=&quot;text-align: left;&quot;&gt;Review Student Performance&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="560" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-29" value="&lt;span style=&quot;text-align: left;&quot;&gt;Generate AI-Driven Exams&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="640" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-30" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; Assign Exams&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-26" target="aX7u31TYIJ3JTOOmk9Ji-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="625" as="sourcePoint" />
+            <mxPoint x="240" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-26" target="aX7u31TYIJ3JTOOmk9Ji-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="675" as="sourcePoint" />
+            <mxPoint x="230" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-26" target="aX7u31TYIJ3JTOOmk9Ji-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="745" as="sourcePoint" />
+            <mxPoint x="250" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-35" target="aX7u31TYIJ3JTOOmk9Ji-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-35" value="&lt;div&gt;System&amp;nbsp;&lt;/div&gt;&lt;div&gt;Administrators&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="850" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-36" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="800" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-37" value=" Configure System Settings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-38" value="Monitor AI Performance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="950" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-35" target="aX7u31TYIJ3JTOOmk9Ji-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="935" as="sourcePoint" />
+            <mxPoint x="240" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-35" target="aX7u31TYIJ3JTOOmk9Ji-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="985" as="sourcePoint" />
+            <mxPoint x="230" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-44" target="aX7u31TYIJ3JTOOmk9Ji-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-44" value="&lt;div&gt;AI Engine&lt;/div&gt;&lt;div&gt;&amp;nbsp;(Adaptive System)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-45" value="Analyze Student Performance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1120" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-46" value=" Adapt Learning Content Dynamically" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1190" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-47" value="Generate Exams (based on skill gaps)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1270" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-44" target="aX7u31TYIJ3JTOOmk9Ji-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1255" as="sourcePoint" />
+            <mxPoint x="240" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aX7u31TYIJ3JTOOmk9Ji-44" target="aX7u31TYIJ3JTOOmk9Ji-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1305" as="sourcePoint" />
+            <mxPoint x="230" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aX7u31TYIJ3JTOOmk9Ji-55" value="SkillForge AI Driven Adaptive Learning and Exam Generator" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="110" width="175" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
